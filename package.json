@@ -1,0 +1,26 @@
+{
+  "name": "wimn",
+  "version": "1.0.0",
+  "description": "Choose your music from the music sheet (shelf + search), and publishing through the native Share button, just as you would in the mobile app.",
+  "keywords": [
+    "userscript",
+    "violentmonkey",
+    "tampermonkey",
+    "instagram",
+    "music",
+    "notes"
+  ],
+  "license": "Apache-2.0",
+  "author": "HongyiHank",
+  "homepage": "https://github.com/HongyiHank/WIMN#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HongyiHank/WIMN.git"
+  },
+  "bugs": "https://github.com/HongyiHank/WIMN/issues",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node test/test.mjs",
+    "verify": "node verify/dom-check.cjs"
+  }
+}
